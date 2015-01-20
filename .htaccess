@@ -1,0 +1,7 @@
+Header append X-FRAME-OPTIONS "SAMEORIGIN"
+RewriteEngine on
+RewriteCond $1 !^(adodb|canvassing|datepicker|img|fonts|thir-party|assets|parsely|files|image|downloads|favicon\.ico|userfiles|index\.php|images|media|js|css|archive|smtpmail)
+RewriteRule ^(.*)$ /index.php?/$1 [L]
+<files *.html>
+ SetOutputFilter DEFLATE
+</files>

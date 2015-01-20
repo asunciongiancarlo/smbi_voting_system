@@ -1,0 +1,47 @@
+		input.parsley-success, textarea.parsley-success {
+        color: black !important;
+        background-color: #DFF0D8 !important;
+        border: 1px solid #D6E9C6 !important;
+		}
+		
+		input.parsley-error, textarea.parsley-error {
+        color: black !important;
+        background-color: #F2DEDE !important;
+        border: 1px solid #EED3D7 !important;
+		}
+	  
+		ul {
+			font-size: 11px;
+			list-style-type: none;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		
+		ul li {
+			line-height: 11px;
+			margin-bottom:-20px;
+			margin-left:-40px;
+			margin-bottom:-10px;
+			max-height: 10px;
+		}
+				
+		input text{
+			width: 150px;
+			margin: 0 2px !important;
+		}
+
+		input.glowing-border {
+			border: 2px solid #dadada;
+			border-radius: 7px;
+		}
+
+		.glowing-border:focus { 
+			outline: none;
+			border-color: #9ecaed;
+			box-shadow: 0 0 10px #9ecaed;
+		}
+		
+		input:focus { 
+			outline:none;
+			border-color:#9ecaed;
+			box-shadow:0 0 10px #9ecaed;
+		}		
