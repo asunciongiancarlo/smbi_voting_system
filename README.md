@@ -1,1 +1,1 @@
-# smbi_voting_system
+# voting_system
